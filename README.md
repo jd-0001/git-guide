@@ -86,3 +86,9 @@ Remove remote branch using `git push origin --delete {the_remote_branch}` comman
 4. Run `git reset --hard <commit>` to delete commit in that branch
 5. Run `git log` again to confirm
 6. Make changes to branch(if you want to) and finally push your changes using `git push origin <branch_name>`
+
+## Tricks
+
+**Q: I have accidentally made changes in another branch but haven't commited yet!**
+
+In this situation just move those changes to stash and switch the branch and after you are in correct branch just apply the stash. Cheers~
