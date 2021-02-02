@@ -92,3 +92,9 @@ Remove remote branch using `git push origin --delete {the_remote_branch}` comman
 **Q: I have accidentally made changes in another branch but haven't commited yet!**
 
 In this situation just move those changes to stash and switch the branch and after you are in correct branch just apply the stash. Cheers~
+
+**Q: Get list of time when file was changed**
+
+```
+git log --pretty="format:%ci" <file>
+```
